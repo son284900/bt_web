@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>table</title>
+    
+    <style>
+        h1{
+            text-align:center;
+        }
+        
+            table, th, td,tr
+
+        {
+            border: 2px solid white ;
+            border-collapse: collapse;
+            line-height: 10px;
+            padding: 5 px;;
+        
+           
+        }
+
+        td {
+            margin-left: auto;
+            margin-right: auto;
+            height: 20px;
+            vertical-align: central;
+        }
+        label{
+            font-weight:bold;
+            text-align:center;
+        }
+        form input#name{
+            margin-left: 24px;
+        } 
+        fieldset{
+            border-color:darkorange;
+            margin: 0 auto;
+            padding: 15px;
+            height: auto;
+
+        }
+        p{
+            padding: 1px;
+        }
+        .a{
+     filter: grayscale(100%);
+     -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+}
+    
+    </style>
+</head>
+<body>
+    <fieldset style="width:550px">
+     <form action=" success.html" method="post">
+         <div class="a">
+       <div class="a"></div><img  src="royalton.png" typeof="png" /></div>
+        
+        <p style="text-align:center">
+            <b>
+                11528 Royalto Road  &bull;  North Royalton, Ohio 44133
+            </b><br />
+            <b>
+                Phone:(440)582-5200 &bull; Fax:(440)582-5208 &bull; royaltonsupply&@hotmail.com
+            </b>
+            <h1 style="text-transform:uppercase" >
+                new customer information
+            </h1>
+      <p>
+          Any customer who whishse to be consider for wholesale status must satisfy 
+          following requirements:
+          <b>
+              <ul>
+                  <li>
+                      povide a company letterhead or business card.
+                  </li>
+                  <li>
+                      povide a current vendor's license number.
+                  </li>
+                  <li>
+                      complete all parts of this New customer Infomation Form.
+                  </li>
+              </ul>
+          </b>
+      </p>
+        <p>
+            Upon receipt of the above lised items,an acconnt wil be established in our
+            system.The acceptable paymen terms on the account are as follows:
+           <b><ul>
+                <li>
+                    Cash
+                </li>
+                <li>Visa/MasterCard</li>
+                <li>Check(accepted with a valid driver's license)</li>
+            </ul></b> 
+        </p>
+        </p>
+      <table>
+          <tr>
+              <td></td>
+              <td style="padding: right:400px"></td>
+              <td colspan="3">
+                  <label for="dob">Date</label>
+                  <input type="date" name="dob" id="dob" min="01/01/1900">
+          </td>
+
+          </tr>
+          <tr>
+             
+              <td colspan="2">
+                  <label for="name">Name </label>
+                  <input type="text" name="name" placeholder="Name" required>
+              
+              </td>
+              <td>
+                  <label for="title">Title</label>
+                  <input type="radio"name="title" value="Mr" >Mr
+                  <input type="radio"name="title" value="Ms" >Ms
+              </td>
+          </tr>
+          <tr>
+          <td colspan="3">
+          <label for="bussiness address">Business Addness</label>
+          <input type="text" name="business address" placeholder="Business Addness">
+          </td>
+          </tr>
+          <tr>
+              <td colspan="3">
+                  <label for="Business Name">Business Name</label>
+                  <input type="text" name="business name" placeholder="Business Name">
+
+
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <label for="city">City</label>
+                  <input type="text" name="city" placeholder="City">
+              </td>
+              <td>
+                  <label for="state">State</label>
+                  <input type="text" name="state" placeholder="Satte">
+              </td>
+           <td><label for="zip code">Zip Code</label>
+             <input type="text" name="zip code" placeholder="Zip Code"></td>
+          </tr>
+          <tr>
+              <td>
+                  <label for="phone">Phone</label>
+                  <input type="text"name="phone" placeholder="Phone" >
+              </td>
+              <td>
+                  <label for="cell">Cell</label>
+                <input type="text"name="cell"placeholder="Cell" >
+              </td>
+              <td>
+              <label for="fax">Fax</label>
+              <input type="text" name="fax" placeholder="Fax"></td>
+      </tr>
+          <tr>
+              <td colspan="3">
+                  <label for="email address">Email Address</label>
+                  <input type="text"name="email address"placeholder="Email Address" >
+
+              </td>
+          </tr>
+          <tr>
+              <td colspan="3">
+                  <label for="is you business tax exempt ?">Is you business tax exempt ?</label>
+                  <select name="is you business tax exempt ?">
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                  </select>
+              </td>
+          </tr>
+          <tr>
+              <td colspan="3">
+                 <label for="***is yse,please fill out the attached tax exempt form***">***Is yse,please fill out the attached tax exempt form***</label><br />
+                  <input type="checkbox"name="***is yse,please fill out the attached tax exempt form***1" value="land" >Landcaper<br >
+                  <input type="checkbox" name="***is yse,please fill out the attached tax exempt form***2" value="water">Waterprooter<br>
+                  <input type="checkbox" name="***is yse,please fill out the attached tax exempt form***3" value="cament">Cement Contractor<br>
+                  
+                  <input type="checkbox" name="***is yse,please fill out the attached tax exempt form***4" value="other">other
+                  <input type="text" name="other" placeholder="Other" >
+
+              </td>
+          </tr>
+          <tr>
+              <td colspan="3">
+                  <label for="signture">Signture</label>
+                  <input type="text"name="signture"placeholder="Signture" >
+              </td>
+          </tr>
+      </table>
+        <p>
+            Thank you gor taking the time to complete this form. We look forward to rerving you in
+            the future.</p>
+          <p> The Koch Family</p>
+        <input type="submit" value="Submit" >
+        <input type="reset"value="Reset" >
+    </fieldset>
+    </form>
+</body>
+</html>
